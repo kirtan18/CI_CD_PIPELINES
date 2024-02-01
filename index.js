@@ -10,7 +10,7 @@ app.get('/will', function (req, res) {
 });
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
-    console.log("Hello docker");
+    console.log("CI/CD Done");
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;
