@@ -34,4 +34,4 @@ jobs:
           context: .
           push: true
           target: prod
-          tags: ${{ secrets.DOCKER_USERNAME }}/CI_CD_PIPELINES:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/ci_cd_pipelines:latest
